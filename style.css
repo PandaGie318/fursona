@@ -1,1 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #fff;
+    color: #333;
+}
 
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fafafa;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.1em;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.email-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.email-form input {
+    padding: 10px;
+    font-size: 1em;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.email-form button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero-image img {
+    max-width: 300px;
+    margin-top: 30px;
+}
+
+.how-it-works {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.how-it-works h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.steps {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.step {
+    width: 200px;
+    text-align: center;
+}
+
+.step img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.step p {
+    font-size: 1em;
+    font-weight: bold;
+}

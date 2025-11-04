@@ -70,16 +70,20 @@ body {
 }
 
 .step {
-    width: 200px;
+    width: 300px;
     text-align: center;
 }
 
 .step img {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     margin-bottom: 15px;
 }
-
+.step img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 .step p {
     font-size: 1em;
     font-weight: bold;
